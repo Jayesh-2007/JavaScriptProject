@@ -35,11 +35,9 @@ const showWinner = (userWin,userChoice,comptChoice) => {
     }
 }
 
-
+// GAME PLAY HERE
 const playGame = (userChoice) => {
-    // console.log("user choice= ",userChoice);
     const comptChoice = randomChoiceGen();
-    // console.log("computer choice= ",comptChoice);
 
     //DRAW GAME
     if (userChoice === comptChoice) {
@@ -59,9 +57,7 @@ const playGame = (userChoice) => {
         showWinner(userWin,userChoice,comptChoice);
     }
 }
-
-
-
+//user choice input
 choices.forEach((choice) => {
     console.log(choice);
     choice.addEventListener("click",()=> {
