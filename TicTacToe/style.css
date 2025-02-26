@@ -31,7 +31,9 @@ h1 {
     height: 21vmin;
     width: 21vmin;
     background-color: #f2e9e4;
+    color: black;
     border-radius: 0.8rem;
+    border: none;
     font-size: 10vmin;
 }
 
@@ -43,4 +45,5 @@ h1 {
     padding: 1rem;
     border-radius: .3rem;
     font-weight: bold;
+    border: none;
 }
