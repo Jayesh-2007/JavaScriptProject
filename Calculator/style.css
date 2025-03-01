@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+button {
+    height: 10vmin;
+    width: 10vmin;
+    border: none;
+    border-radius: 50%;
+}
+.num {
+    background-color: #505050;
+    color: #fff;
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+#zero {
+    width: 20vmin;
+    border-radius: 1.5rem;
+}
+.cal-container {
+    background-color: #1C1C1C;
+    padding: .5rem;
+    display: flex;
+    flex-wrap: wrap;
+    width: 48vmin;
+    height: 80vmin;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: .9rem;
+}
+.operator {
+    background-color: #FF9500;
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
+.container {
+    width:100vw;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items:center; 
+}
+
+#msg {
+    width: 44vmin;
+    height: 18vmin;
+    border: none;
+    color: #fff;
+    background-color: #1C1C1C;
+}
+
+input::placeholder {
+    font-size: 3.5rem;
+    font-weight: 500;
+    color: white;
+    opacity: 0.5;
+    direction: rtl;
+    
+    position:absolute;
+    left: 25vmin;
+    
+}
