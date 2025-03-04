@@ -33,6 +33,7 @@ button {
 }
 .operator {
     background-color: #FF9500;
+    color: #fff;
     font-size: 1.7rem;
     font-weight: 500;
 }
@@ -50,17 +51,16 @@ button {
     height: 18vmin;
     border: none;
     color: #fff;
+    border: none;
     background-color: #1C1C1C;
 }
 
 input::placeholder {
-    font-size: 3.5rem;
+    font-size: 4rem;
     font-weight: 500;
     color: white;
     opacity: 0.5;
-    direction: rtl;
-    
     position:absolute;
-    left: 25vmin;
-    
+    right: 0vmin;
+    bottom: 0vmin;
 }
