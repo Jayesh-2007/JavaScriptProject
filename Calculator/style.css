@@ -10,6 +10,10 @@ button {
     border: none;
     border-radius: 50%;
 }
+button:active{
+    border: 2px solid rgba(255,255,255,0.5);
+    transition: border 0.1s linear; 
+}
 .num {
     background-color: #505050;
     color: #fff;
