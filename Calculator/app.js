@@ -11,6 +11,8 @@ let num0 = document.querySelector("#zero");
 let msg = document.querySelector("#msg");
 let plus = document.querySelector("#plus");
 let minus = document.querySelector("#minus");
+let ac = document.querySelector("#ac");
+let equal = document.querySelector("#equal");
 let multiplication = document.querySelector("#multiplication");
 let divide =document.querySelector("#divide");
 let percentage= document.querySelector("#percentage");
@@ -109,4 +111,14 @@ percentage.addEventListener("click",()=> {
 decimal.addEventListener("click",()=> { 
     console.log(".");
     msg.placeholder= msg.placeholder+'.';
+})
+
+ac.addEventListener("click",()=> { 
+    console.log("ac");
+    msg.placeholder= " ";
+})
+
+equal.addEventListener("click",()=> { 
+    console.log("equal");
+    msg.placeholder=ans;
 })
